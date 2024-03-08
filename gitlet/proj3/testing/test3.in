@@ -1,0 +1,6 @@
+> init
+<<<
++ file1.txt notwug.txt ( file1.txt contains "b")
++ file1.txt file3.txt (f.txt now contains "c")
+- file1.txt
+* file1.txt

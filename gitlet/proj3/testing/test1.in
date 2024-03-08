@@ -1,0 +1,36 @@
+I prelude1.inc
+> branch A
+<<<
++ file2.txt file2.txt
+> add file2.txt
+<<<
+> commit "add file2"
+<<<
+> checkout A
+<<<
++ file3.txt file3.txt
++ file1.txt file1.txt
+> add file3.txt
+<<<
+> add file1.txt
+<<<
+> commit "Add file3 and file1"
+<<<
+> branch B
+<<<
+> checkout B
+<<<
++ file4.txt file4.txt
+> add file4.txt
+<<<
+> commit "Add file4"
+<<<
+> merge master
+<<<
+= file3.txt file3.txt
+= file1.txt file1.txt
+= file4.txt file4.txt
+= file2.txt file2.txt
+> merge master
+Given branch is an ancestor of the current branch.
+<<<

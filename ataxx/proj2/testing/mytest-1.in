@@ -1,0 +1,30 @@
+#* java -ea ataxx.Main
+# checking manual plays
+manual blue
+block a2
+block a3
+block a4
+block b2
+block b3
+block b4
+block c2
+block c3
+block c4
+a7-b7
+a1-b1
+b7-c7
+g7-f7
+c7-d7
+f7-e7
+g1-f1
+d7-d6
+f1-e1
+d6-d5
+e1-d1
+b1-c1
+e1-d2
+d5-d4
+d2-d3
+#*win+
+dump
+
